@@ -8,3 +8,184 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body{
+    margin:0;
+    
+}
+
+#hero{
+    background-color:#540B51 ;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    margin:20px;
+ }
+
+.nav-container img{
+    width: 140px;
+}
+
+.nav-container ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container li{
+    display: block;
+}
+
+.nav-container li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.nav-actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-grow: 1;
+    
+}
+
+.nav-actions button{
+    background-color: #540B51;
+    border: none;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    
+}
+
+header div > img{
+    width: 500px;
+}
+
+header div p{
+    color:white;
+    font-size: 25px;
+}
+
+header div p span{
+    color:#ECB12F
+}
+
+.button-container{
+    
+    display: flex;
+    gap: 20px;
+    
+}
+
+.sign-up-google img{
+    width: 20px;
+    background-color: white;
+    margin: 5px 5px;
+    padding:10px;
+}
+
+.sign-up-email{
+    background-color:#F3EAE2;
+    color:#540B51;
+    padding:0px 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.sign-up-google{
+    background-color:#4285F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding:0px 70px 0px 0px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .trusted-companies{
+    background-color: #F3EAE2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+  .trusted-companies p{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+ .trusted-companies div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:40px;
+ }
+
+ .trusted-companies div img{
+    width: 120px;
+ }
+
+ .statistics{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+ }
+
+.statistics ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    
+}
+
+.statistics h3{
+    color: #540B51;
+    font-size: 40px;
+
+}
+
+.h3 + p{
+    font-size: 20px;
+}
+
+.statistics ul li{
+    display: block;
+}
+
+.statistics ul li p{
+    font-weight: bold;
+
+}
+
+.statistics ul li p span{
+    font-size: 50px;
+    color:#540B51;
+    
+}
+
+
+
+
+

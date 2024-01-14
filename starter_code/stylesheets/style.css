@@ -144,23 +144,9 @@ header div p span{
     width: 120px;
  }
 
- .statistics{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    
 
- }
 
-.statistics ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:40px;
-    
-}
-
-.statistics h3{
+ .statistics h3{
     color: #540B51;
     font-size: 40px;
 
@@ -170,22 +156,117 @@ header div p span{
     font-size: 20px;
 }
 
+ .statistics{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .statistics ul{
+    display: flex;
+    align-items: center;
+    gap:40px; 
+}
+
 .statistics ul li{
     display: block;
+    
 }
 
 .statistics ul li p{
     font-weight: bold;
-
+    width:160px;
+    
+       
 }
 
 .statistics ul li p span{
     font-size: 50px;
-    color:#540B51;
+    color:#540B51;      
+}
+
+.try{
+    background-color: #540B51;
+    height: 300px;
+       
+}
+
+.try h3 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
     
 }
 
+.try button{
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:20px 55px;
+    font-size: 1.2em; 
+        
+}
+
+.button-try-free{
+    background-color: white;
+    color: #540B51;
+    
+    
+}
+
+.button-sales{
+    background-color: #540B51;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+}
+
+hr{
+    color: #454245;
+    opacity: 0.5;
+    width: 90%;
+    margin: 50px;
+
+}
+
+.links-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none ;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 0px 40px ;
+}
+
+.download-slack-button{
+    color:#2E71A6 ;
+    
+}
+
+ /*
+
+ Hauria de funcionar, pero no sé perque no renderitza l'imatge...
+
+.change-region-button:before{
+    content: url(..images\icon-region);
+
+}
+
+.download-slack-button:before{
+    content:url(..images/icon-download.png)
+}
+*/
+
+.social-net{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+small{
+    margin: 20px;
+    padding: 50px;
 
 
-
-
+}
